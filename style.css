@@ -7,17 +7,37 @@ body{
 header{
     background:#e91e63;
     color:white;
-    padding:15px;
+    padding:20px;
     text-align:center;
+    font-size:28px;
+    font-weight:bold;
 }
 
 .container{
-    padding:20px;
+    text-align:center;
+    padding:50px 20px;
 }
 
-.post{
-    background:white;
-    padding:15px;
-    margin-bottom:15px;
-    border-radius:10px;
+h2{
+    font-size:32px;
+    color:#333;
+}
+
+p{
+    font-size:18px;
+    color:#666;
+}
+
+button{
+    background:#e91e63;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#c2185b;
 }
