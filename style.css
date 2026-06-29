@@ -7,25 +7,33 @@ body{
 header{
     background:#e91e63;
     color:white;
-    padding:20px;
     text-align:center;
+    padding:20px;
     font-size:28px;
     font-weight:bold;
 }
 
 .container{
-    text-align:center;
-    padding:50px 20px;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
 }
 
-h2{
-    font-size:32px;
-    color:#333;
+.post{
+    background:white;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-p{
+.post h3{
+    margin:0;
+    color:#e91e63;
+}
+
+.post p{
     font-size:18px;
-    color:#666;
 }
 
 button{
@@ -36,8 +44,4 @@ button{
     font-size:18px;
     border-radius:8px;
     cursor:pointer;
-}
-
-button:hover{
-    background:#c2185b;
 }
